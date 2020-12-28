@@ -13,8 +13,10 @@ function migrate {
 
 function mockdata {
     if ! ./manage.py dumpdata auth | grep -q interview; then
-      echo "Test user does not exist, loading..."
+      echo "Test user does not exist, loading all fixtures."
       python manage.py loaddata uplifty/fixtures/users.json
+      python manage.py loaddata uplifty/fixtures/deck.json
+      python manage.py loaddata uplifty/fixtures/cards.json
     else
       echo "Test user exists"
     fi

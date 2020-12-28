@@ -85,6 +85,10 @@ case $task in
         # Drop the local database.
         docker exec -it uplifty-db psql -h db -U postgres -c "DROP DATABASE IF EXISTS uplifty"
         ;;
+    makemigrations)
+        # Make database migrations.
+        docker exec -it uplifty python manage.py makemigrations $args
+        ;;
     migrate)
         # Run database migrations.
         docker exec -it uplifty python manage.py migrate $args

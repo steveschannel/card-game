@@ -1,0 +1,522 @@
+[
+  {
+    "model": "game.card",
+    "pk": 1,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "S",
+      "value": "Ace"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 2,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "S",
+      "value": "Two"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 3,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "S",
+      "value": "Three"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 4,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "S",
+      "value": "Four"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 5,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "S",
+      "value": "Five"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 6,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "S",
+      "value": "Six"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 7,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "S",
+      "value": "Seven"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 8,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "S",
+      "value": "Eight"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 9,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "S",
+      "value": "Nine"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 10,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "S",
+      "value": "Ten"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 11,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "S",
+      "value": "Jack"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 12,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "S",
+      "value": "Queen"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 13,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "S",
+      "value": "King"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 14,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "H",
+      "value": "Ace"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 15,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "H",
+      "value": "Two"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 16,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "H",
+      "value": "Three"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 17,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "H",
+      "value": "Four"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 18,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "H",
+      "value": "Five"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 19,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "H",
+      "value": "Six"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 20,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "H",
+      "value": "Seven"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 21,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "H",
+      "value": "Eight"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 22,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "H",
+      "value": "Nine"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 23,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "H",
+      "value": "Ten"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 24,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "H",
+      "value": "Jack"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 25,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "H",
+      "value": "Queen"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 26,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "H",
+      "value": "King"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 27,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "C",
+      "value": "Ace"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 28,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "C",
+      "value": "Two"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 29,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "C",
+      "value": "Three"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 30,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "C",
+      "value": "Four"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 31,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "C",
+      "value": "Five"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 32,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "C",
+      "value": "Six"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 33,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "C",
+      "value": "Seven"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 34,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "C",
+      "value": "Eight"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 35,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "C",
+      "value": "Nine"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 36,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "C",
+      "value": "Ten"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 37,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "C",
+      "value": "Jack"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 38,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "C",
+      "value": "Queen"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 39,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "C",
+      "value": "King"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 40,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "D",
+      "value": "Ace"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 41,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "D",
+      "value": "Two"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 42,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "D",
+      "value": "Three"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 43,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "D",
+      "value": "Four"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 44,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "D",
+      "value": "Five"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 45,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "D",
+      "value": "Six"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 46,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "D",
+      "value": "Seven"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 47,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "D",
+      "value": "Eight"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 48,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "D",
+      "value": "Nine"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 49,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "D",
+      "value": "Ten"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 50,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "D",
+      "value": "Jack"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 51,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "D",
+      "value": "Queen"
+    }
+  },
+  {
+    "model": "game.card",
+    "pk": 52,
+    "fields": {
+      "deck": 1,
+      "dealt": false,
+      "suit": "D",
+      "value": "King"
+    }
+  }
+]
