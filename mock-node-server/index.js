@@ -117,11 +117,11 @@ const resolvers = {
   },
 }
 
-const server = new ApolloServer({ typeDefs, resolvers })
+// const server = new ApolloServer({ typeDefs, resolvers })
 
-const app = express()
-server.applyMiddleware({ app })
+// const app = express()
+// server.applyMiddleware({ app })
 
-app.listen({ port: 5000 }, () =>
-  console.info(`🚀 Server ready at http://localhost:5000${server.graphqlPath}`)
-)
+// app.listen({ port: 5000 }, () =>
+//   console.info(`🚀 Server ready at http://localhost:5000${server.graphqlPath}`)
+// )

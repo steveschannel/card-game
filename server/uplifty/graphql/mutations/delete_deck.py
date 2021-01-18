@@ -16,7 +16,7 @@ class DeleteDeck(graphene.Mutation):
     def mutate(self, info, deck_id):
         try:
             deck = Deck.objects.get(id=deck_id)
-            if deck.deck.user.id != info.context.user.id:
+            if deck.user.id != info.context.user.id:
                 raise Exception("Deck doesn't belong to user.")
             deck.delete()
         except:

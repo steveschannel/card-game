@@ -42,6 +42,10 @@ class DealFive(graphene.Mutation):
         try:
             deal = random.sample(unplayed_ids, 5)
             outcome = "No Victor"
+
+            if len(unplayed_ids) is 5 and game.game_can_lose:
+                raise Exception
+            
         except:
             deal = unplayed_ids
 

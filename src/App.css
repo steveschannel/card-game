@@ -22,11 +22,105 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.center {
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+}
+
+.mt-2 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.mw-2 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.modal {
+  width: 70%;
+  height: 70%;
+  outline: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 25rem;
+  text-align: center;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.creation {
+  display: flex;
+  position: relative;
+  justify-content: last baseline;
+  align-items: center;
+  text-align: center;
+  width: 15rem;
+  height: 25rem;
+}
+
+.animate {
+  position: relative;
+  transition: top ease 0.5s;
+}
+
+.reveal {
+  position: absolute;
+  z-index: 0;
+  width: 15rem;
+  height: 25rem;
+  left: 0rem;
+  transition: left ease 0.5s;
+}
+
+.reveal:hover {
+  left: -3rem;
+}
+
+.card.animate:hover {
+  top: -10px;
+}
+
+.deletion {
+  height: 100%;
+}
+
+.cardContainer {
+  padding-top: 20px;
+}
+
+.link {
+  text-decoration: none;
+}
+.page-descriptor {
+  text-align: center;
+}
+
+.card-control {
+  display: inline-flex;
+  position: relative;
+}
+
+#logout {
+  float: right;
+}
+
+#main {
+  float: left;
+}
+
+.nav {
+  margin: 0 2rem 0 2rem;
 }
