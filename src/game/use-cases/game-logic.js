@@ -9,7 +9,7 @@ import {
   result,
 } from 'game/framework/client'
 
-export const initializeGame = (difficulty, deck, startGame) => {
+export const initializeGame = (difficulty = false, deck, startGame) => {
   inGame(true)
   hand(null)
   showOutcome(false)

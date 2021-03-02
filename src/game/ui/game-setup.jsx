@@ -7,7 +7,7 @@ import { GET_DECKS, START_GAME } from 'game/framework/gql'
 import { initializeGame } from 'game/use-cases/game-logic'
 
 export const Difficulties = ({ setDifficulty }) => {
-  if (localStorage.getItem('selectedDifficulty') === null) {
+  if (!localStorage.getItem('selectedDifficulty')) {
     localStorage.setItem('selectedDifficulty', true)
   }
 
@@ -28,7 +28,7 @@ export const Difficulties = ({ setDifficulty }) => {
 }
 
 export const Decks = ({ data, setDeck }) => {
-  if (localStorage.getItem('selectedDeck') === null) {
+  if (!localStorage.getItem('selectedDeck')) {
     localStorage.setItem('selectedDeck', data.decks[0].id)
   }
 
@@ -71,17 +71,19 @@ export const StartGameMenu = () => {
 
   if (error) return 'Error'
 
+  const handleStart = () => {
+    const dif = difficulty == null ? false : difficulty
+    const dec = deck == null ? data.decks[0].id : deck
+    initializeGame(dif, dec, startGame)
+  }
+
   return (
     <>
       <h1 className="page-descriptor">Start New Game</h1>
-      <form
-        id="startGameForm"
-        className="center mt-2"
-        onSubmit={() => initializeGame(difficulty, deck, startGame)}
-      >
+      <form id="startGameForm" className="center mt-2">
         <Difficulties setDifficulty={setDifficulty} />
         <Decks data={data} setDeck={setDeck} />
-        <Link to="/game" onClick={() => initializeGame(difficulty, deck, startGame)}>
+        <Link to="/game" onClick={handleStart}>
           <Button type="submit" form="startGameForm" variant="contained" color="primary">
             Start Game
           </Button>

@@ -84,10 +84,10 @@ export const DecksContainer = () => {
       <h1 className="page-descriptor">Decks</h1>
       <Grid container className="cardContainer" justify="center" spacing={5}>
         {data.decks.map(deck => (
-          <Grid item className="card-control">
+          <Grid key={deck.id} item className="card-control">
             <DeckDeletionButton deck={deck} />
             <Link to={`/edit-deck/?deck=${deck.id}`} className="link">
-              <Paper className="card" key={deck.id} value={deck.id} elevation={5}>
+              <Paper className="card" value={deck.id} elevation={5}>
                 <h2>{deck.title}</h2>
               </Paper>
             </Link>

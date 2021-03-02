@@ -13,7 +13,7 @@ import { LAST_GAME, RESUME_GAME, GET_HISTORY } from 'game/framework/gql'
 import { Loading } from 'game/ui/loading'
 
 export const Tally = () => {
-  const [timeframe, setTimeframe] = useState(localStorage.getItem('tally'))
+  const [timeframe, setTimeframe] = useState(localStorage.getItem('tally') || 1)
   const { loading, error, data, refetch } = useQuery(GET_HISTORY, {
     variables: { range: timeframe },
   })
